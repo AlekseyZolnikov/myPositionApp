@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyPositionApp</string>
+    <string name="city">city</string>
+    <string name="temperature">temperature</string>
 </resources>

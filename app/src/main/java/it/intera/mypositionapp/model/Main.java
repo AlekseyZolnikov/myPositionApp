@@ -10,7 +10,7 @@ public class Main {
 
     @SerializedName("pressure")
     @Expose
-    private int pressure;
+    private Float pressure;
 
     @SerializedName("humidity")
     @Expose
@@ -32,11 +32,11 @@ public class Main {
         this.temp = temp;
     }
 
-    public int getPressure() {
+    public float getPressure() {
         return pressure;
     }
 
-    public void setPressure(int pressure) {
+    public void setPressure(float pressure) {
         this.pressure = pressure;
     }
 

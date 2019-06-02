@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
                     } else {
                         Log.d("TAG", "ERROR" );
                     }
-
                 }
             });
     }
